@@ -5,7 +5,7 @@ function Modal({open, children }) {
   const dialog = useRef();
 
   useEffect(()=>{
-    if(opne){
+    if(open){
       dialog.current.showModal();
     }else{
       dialog.current.close();
